@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/sync.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/chevron-double-right.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/bulb.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="indexNV2.html">
+    <link rel="stylesheet" href="indexNV3.html">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <section class="secthead">
+            <div class="divhead3">
+                <ul>
+                    <li class="active">
+                        <a href="indx.html">
+                            <h3>document</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="divhead1">
+                <ul>
+                    <li>
+                        <a id="h" href="#home" onclick="colorh()">home</a>
+                    </li>
+                    <li>
+                        <a id="m" href="#méthode" onclick="colorm()">méthode</a>
+                    </li>
+                    <li>
+                        <a id="j" href="#joueur" onclick="colorj()">joueur</a>
+                    </li>
+                    <li>
+                        <a id="t" href="#tablesection" onclick="colort()">jouer</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="divhead2">
+                <ul>
+
+                    <li>
+                        <a href="#"> <img width="30" height="30" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new" /></a>
+                    </li>
+                    <li>
+                        <a href="#"><img width="30" height="30" src="https://img.icons8.com/color/48/twitterx.png" alt="twitterx" /></a>
+                    </li>
+                    <li>
+                        <a href="#"><img width="30" height="30" src="https://img.icons8.com/metro/26/228BE6/facebook-new--v2.png" alt="facebook-new--v2" /></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+    </header>
+
+    <section class="home" id="home" aria-disabled="true">
+        <div class="présentation">
+            <h4>Document</h4>
+            <h6>Texte</h6>
+            <h1>Texte</h1>
+        </div>
+
+        <div class="diva">
+            <a href="#joueur" id="inscription">
+                S'inscrire
+            </a>
+            <a href="#" id="connection">
+                Se connecter
+            </a>
+
+        </div>
+
+
+    </section>
+
+    <section class="méthode" id="méthode" aria-disabled="true">
+
+    </section>
+
+    <section class="joueur" id="joueur">
+        <div class="avatar">
+            <h4>Avatar</h4>
+            <input type="image" src="" alt="" value="" id="inpimg">
+
+        </div>
+        <div class="indentité">
+            <h4>Nom <input type="text" class="inp1" id="inp1" value=""></h4>
+            <h4>Prenom <input type="text" class="inp2" id="inp2" value=""></h4>
+            <h4>E-mail <input type="text" class="inp3" id="inp3" value=""></h4>
+            <h4>Indetifiant <input type="text" class="inp4" id="inp4" value=""></h4>
+            <h4>Code <input type="text" class="inp5" id="inp5" value=""></h4>
+        </div>
+
+        <div class="pts-niveau">
+            <h4>Points <input type="text" id="inppts" value="9 pts" disabled="true"></h4>
+            <h4>Niveau <input type="text" id="inpniv" value="niv 1" disabled="true"></h4>
+
+            <button type="button" id="jinscris" onclick="inscris()">Je m'inscris</button>
+            <h4 id="att"></h4>
+        </div>
+
+    </section>
+
+    <section class="aide" id="aide">
+        <div class="bonus">
+            <h6 id="h6aide"></h6>
+            <button id="btn" type="button" onclick="erreur()" disabled="true"><i class="gg-bulb" href="#aide"></i></button>
+        </div>
+
+    </section>
+    <section class="tablesection" id="tablesection">
+
+        <div class="tablediv">
+            <!-- table1 -->
+            <table id="tablediv1" class="table1">
+                <thead>
+                    <th><input type="number" id="inputth1" value=""></th>
+                    <th><input type="text" id="inputthtext" value="-" disabled="true"></th>
+                    <th><input type="number" id="inputth2" value="2" disabled="true"></th>
+                    <th><input type="text" id="inputthtext" value="+" disabled="true"></th>
+                    <th><input type="number" id="inputth3" value=""></th>
+                    <th><input type="text" id="inputthtext" value="=" disabled="true"></th>
+                    <th><input type="number" id="inputth4" value="4" disabled="true"></th>
+                    <th></th>
+                    <th></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" id="inputthtext" value="*" disabled="true"></td>
+                        <td></td>
+                        <td><input type="text" id="inputthtext" value="*" disabled="true"></td>
+                        <td></td>
+                        <td><input type="text" id="inputthtext" value="*" disabled="true"></td>
+                        <td></td>
+                        <td><input type="text" id="inputthtext" value="+" disabled="true"></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="number" id="inputtd11" value="1" disabled="true"></td>
+                        <td><input type="text" id="inputthtext" value="-" disabled="true"></td>
+                        <td><input type="number" id="inputtd12" value=""></td>
+                        <td><input type="text" id="inputthtext" value="+" disabled="true"></td>
+                        <td><input type="number" id="inputtd13" value="2" disabled="true"></td>
+                        <td><input type="text" id="inputthtext" value="=" disabled="true"></td>
+                        <td><input type="number" id="inputtd14" value=""></td>
+                        <td><input type="text" id="inputthtext" value="+" disabled="true"></td>
+                        <td><input type="text" id="inputtd15" value="1" disabled="true"></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="inputthtext" value="=" disabled="true"></td>
+                        <td></td>
+                        <td><input type="text" id="inputthtext" value="=" disabled="true"></td>
+                        <td></td>
+                        <td><input type="text" id="inputthtext" value="=" disabled="true"></td>
+                        <td></td>
+                        <td><input type="text" id="inputthtext" value="=" disabled="true"></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="number" id="inputtd21" value="3" disabled="true"></td>
+                        <td><input type="text" id="inputthtext" value="-" disabled="true"></td>
+                        <td><input type="number" id="inputtd22" value=""></td>
+                        <td><input type="text" id="inputthtext" value="+" disabled="true"></td>
+                        <td><input type="number" id="inputtd23" value=""></td>
+                        <td><input type="text" id="inputthtext" value="=" disabled="true"></td>
+                        <td><input type="number" id="inputtd24" value="7" disabled="true"></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+            <!-- table2 -->
+            <table id="tablediv2" class="table2">
+                <thead>
+                    <th><input type="number" id="inputth221" value=""></th>
+                    <th><input type="text" id="inputthtext" value="-" disabled="true"></th>
+                    <th><input type="number" id="inputth222" value="6" disabled="true"></th>
+                    <th><input type="text" id="inputthtext" value="-" disabled="true"></th>
+                    <th><input type="number" id="inputth223" value=""></th>
+                    <th><input type="text" id="inputthtext" value="=" disabled="true"></th>
+                    <th><input type="number" id="inputth224" value="8" disabled="true"></th>
+                    <th></th>
+                    <th></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" id="inputthtext" value="=" disabled="true"></td>
+                        <td></td>
+                        <td><input type="text" id="inputthtext" value="=" disabled="true"></td>
+                        <td></td>
+                        <td><input type="text" id="inputthtext" value="=" disabled="true"></td>
+                        <td></td>
+                        <td><input type="text" id="inputthtext" value="+" disabled="true"></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="number" id="inputtd2211" value="5" disabled="true"></td>
+                        <td><input type="text" id="inputthtext" value="-" disabled="true"></td>
+                        <td><input type="number" id="inputtd2212" value=""></td>
+                        <td><input type="text" id="inputthtext" value="+" disabled="true"></td>
+                        <td><input type="number" id="inputtd2213" value="3" disabled="true"></td>
+                        <td><input type="text" id="inputthtext" value="=" disabled="true"></td>
+                        <td><input type="number" id="inputtd2214" value=""></td>
+                        <td><input type="text" id="inputthtext" value="-" disabled="true"></td>
+                        <td><input type="text" id="inputtd2215" value="1" disabled="true"></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="inputthtext" value="*" disabled="true"></td>
+                        <td></td>
+                        <td><input type="text" id="inputthtext" value="*" disabled="true"></td>
+                        <td></td>
+                        <td><input type="text" id="inputthtext" value="*" disabled="true"></td>
+                        <td></td>
+                        <td><input type="text" id="inputthtext" value="=" disabled="true"></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="number" id="inputtd2221" value="7" disabled="true"></td>
+                        <td><input type="text" id="inputthtext" value="-" disabled="true"></td>
+                        <td><input type="number" id="inputtd2222" value=""></td>
+                        <td><input type="text" id="inputthtext" value="+" disabled="true"></td>
+                        <td><input type="number" id="inputtd2223" value=""></td>
+                        <td><input type="text" id="inputthtext" value="=" disabled="true"></td>
+                        <td><input type="number" id="inputtd2224" value="12" disabled="true"></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+            <!-- table3 -->
+            <table id="tablediv3" class="table3">
+                <thead>
+                    <th><input type="number" id="inputth331" value=""></th>
+                    <th><input type="text" id="inputthtext" value="=" disabled="true"></th>
+                    <th><input type="number" id="inputth332" value="3" disabled="true"></th>
+                    <th><input type="text" id="inputthtext" value="+" disabled="true"></th>
+                    <th><input type="number" id="inputth333" value=""></th>
+                    <th><input type="text" id="inputthtext" value="-" disabled="true"></th>
+                    <th><input type="number" id="inputth334" value="6" disabled="true"></th>
+                    <th></th>
+                    <th></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" id="inputthtext" value="=" disabled="true"></td>
+                        <td></td>
+                        <td><input type="text" id="inputthtext" value="=" disabled="true"></td>
+                        <td></td>
+                        <td><input type="text" id="inputthtext" value="=" disabled="true"></td>
+                        <td></td>
+                        <td><input type="text" id="inputthtext" value="=" disabled="true"></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="number" id="inputtd3311" value="2" disabled="true"></td>
+                        <td><input type="text" id="inputthtext" value="+" disabled="true"></td>
+                        <td><input type="number" id="inputtd3312" value=""></td>
+                        <td><input type="text" id="inputthtext" value="-" disabled="true"></td>
+                        <td><input type="number" id="inputtd3313" value="3" disabled="true"></td>
+                        <td><input type="text" id="inputthtext" value="=" disabled="true"></td>
+                        <td><input type="number" id="inputtd3314" value=""></td>
+                        <td><input type="text" id="inputthtext" value="+" disabled="true"></td>
+                        <td><input type="text" id="inputtd3315" value="3" disabled="true"></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="inputthtext" value="*" disabled="true"></td>
+                        <td></td>
+                        <td><input type="text" id="inputthtext" value="*" disabled="true"></td>
+                        <td></td>
+                        <td><input type="text" id="inputthtext" value="*" disabled="true"></td>
+                        <td></td>
+                        <td><input type="text" id="inputthtext" value="+" disabled="true"></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="number" id="inputtd3321" value="3" disabled="true"></td>
+                        <td><input type="text" id="inputthtext" value="=" disabled="true"></td>
+                        <td><input type="number" id="inputtd3322" value=""></td>
+                        <td><input type="text" id="inputthtext" value="+" disabled="true"></td>
+                        <td><input type="number" id="inputtd3323" value=""></td>
+                        <td><input type="text" id="inputthtext" value="-" disabled="true"></td>
+                        <td><input type="number" id="inputtd3324" value="1" disabled="true"></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+        </div>
+        <div id="verification">
+            <button id="verif" onclick="verification()"><input id="inputv" type="button" value="Soumettre"><h2></h2></button>
+
+            <span id="display"></span>
+        </div>
+        <div class="falseortrue">
+            <h1 id="falseortrue"></h1>
+
+        </div>
+        <div id="textdiv" class="textdiv">
+            <nav class="nav1">
+                <p id="th4r"></p>
+                <p id="td13r"></p>
+                <p id="td24r"></p>
+                <p id="td21r"></p>
+                <p id="td22r"></p>
+                <p id="td23r"></p>
+                <p id="td14r"></p>
+            </nav>
+            <nav class="nav2">
+                <p id="falseortrue2"></p>
+                <p id="th224r"></p>
+                <p id="td2213r"></p>
+                <p id="td2224r"></p>
+                <p id="th221r"></p>
+                <p id="th222r"></p>
+                <p id="th223r"></p>
+                <p id="td2214r"></p>
+            </nav>
+
+            <nav class="nav3">
+                <p id="falseortrue3"></p>
+                <p id="th334r"></p>
+                <p id="td3313r"></p>
+                <p id="td3324r"></p>
+                <p id="th331r"></p>
+                <p id="th332r"></p>
+                <p id="th333r"></p>
+                <p id="td3314r"></p>
+            </nav>
+        </div>
+
+    </section>
+    <div class="divbutton">
+        <button id="buttona" type="button" onclick="recommencer()" disabled="true"><h2>reprendre<i class="gg-sync"></i></h2></button>
+        <button id="buttond" type="button" disabled="true" value=" Load new document " onclick="newDoc() "><h2>Niveau suivant<i class="gg-chevron-double-right"></i></h2></button>
+    </div>
+
+    <!-- <script> function btn.onclick </script> -->
+    <script type="text/javascript">
+        var count = 0;
+        var btn = document.getElementById("inputv");
+        var disp = document.getElementById("display");
+
+        btn.onclick = function() {
+            count++;
+            disp.innerHTML = count;
+            document.getElementById('tablediv1').style = "background-color: white"
+            document.getElementById('tablediv2').style = "background-color: white"
+            document.getElementById('tablediv3').style = "background-color: white"
+            if (count >= 20) {
+                var txt;
+                if (confirm("Press ok for help")) {
+                    document.getElementById('btn').disabled = false;
+                    document.getElementById('btn').style = "display=flex; border-color: darkblue;height: 32px; width: auto;border-radius: 5px;padding: 2.5px 5px;margin: 2.5px 5px;"
+                    txt = window.location.assign("file:///C:/Users/HP/Desktop/essai/indx.html#aide ");
+                    document.getElementById("h6aide").innerHTML = "cliquer ici >>> ";
+                } else {
+                    document.getElementById('btn').disabled = true;
+
+                }
+            } else {
+                document.getElementById('btn').disabled = true;
+            }
+        }
+    </script>
+
+</body>
+
+<!-- <script> function verification </script> -->
+<script>
+    function verification() {
+        let th1 = inputth1.value;
+        let th3 = inputth3.value;
+        let th2 = inputth2.value;
+        let th4 = inputth4.value;
+        let th4v = (th1 - th2) + parseInt(th3);
+        th4r.innerHTML = " " + th4v + " "
+        let td11 = inputtd11.value;
+        let td12 = inputtd12.value;
+        let td13 = inputtd13.value;
+        let td14 = inputtd14.value;
+        let td15 = inputtd15.value;
+        let td13v = (td12 - td11) + parseInt(td14);
+        td13r.innerHTML = " " + td13v + " "
+        let td21 = inputtd21.value;
+        let td22 = inputtd22.value;
+        let td23 = inputtd23.value;
+        let td24 = inputtd24.value;
+        let td24v = (td21 - td22) + parseInt(td23);
+        td24r.innerHTML = " " + td24v + " "
+        let td21v = (th1 * td11);
+        td21r.innerHTML = " " + td21v + " "
+        let td22v = (th2 * td12);
+        td22r.innerHTML = " " + td22v + " "
+        let td23v = (th3 * td13);
+        td23r.innerHTML = " " + td23v + " "
+        let td14v = (td24 - th4 - td15);
+        td14r.innerHTML = " " + td14v + " "
+            // verification2
+        let th221 = inputth221.value;
+        let th223 = inputth223.value;
+        let th222 = inputth222.value;
+        let th224 = inputth224.value;
+        let th224v = (th221 - th222) - parseInt(th223);
+        th224r.innerHTML = " " + th224v + " "
+        let td2211 = inputtd2211.value;
+        let td2212 = inputtd2212.value;
+        let td2213 = inputtd2213.value;
+        let td2214 = inputtd2214.value;
+        let td2215 = inputtd2215.value;
+        let td2213v = (td2212 - td2211) + parseInt(td2214);
+        td2213r.innerHTML = " " + td2213v + " "
+        let td2221 = inputtd2221.value;
+        let td2222 = inputtd2222.value;
+        let td2223 = inputtd2223.value;
+        let td2224 = inputtd2224.value;
+        let td2224v = (td2221 - td2222) + parseInt(td2223);
+        td2224r.innerHTML = " " + td2224v + " "
+        let th221v = (td2221 * td2211);
+        th221r.innerHTML = " " + th221v + " "
+        let th222v = (td2222 * td2212);
+        th222r.innerHTML = " " + th222v + " "
+        let th223v = (td2223 * td2213);
+        th223r.innerHTML = " " + th223v + " "
+        let td2214v = (td2224 - th224) + parseInt(td2215);
+        td2214r.innerHTML = " " + td2214v + " "
+            // verification3
+        let th331 = inputth331.value;
+        let th333 = inputth333.value;
+        let th332 = inputth332.value;
+        let th334 = inputth334.value;
+        let th334v = parseInt(th332) + parseInt(th333) - th331;
+        th334r.innerHTML = " " + th334v + " "
+        let td3311 = inputtd3311.value;
+        let td3312 = inputtd3312.value;
+        let td3313 = inputtd3313.value;
+        let td3314 = inputtd3314.value;
+        let td3315 = inputtd3315.value;
+        let td3313v = parseInt(td3311) + parseInt(td3312) - td3314;
+        td3313r.innerHTML = " " + td3313v + " "
+        let td3321 = inputtd3321.value;
+        let td3322 = inputtd3322.value;
+        let td3323 = inputtd3323.value;
+        let td3324 = inputtd3324.value;
+        let td3324v = parseInt(td3322) + parseInt(td3323) - td3321;
+        td3324r.innerHTML = " " + td3324v + " "
+        let th331v = (td3321 * td3311)
+        th331r.innerHTML = " " + th331v + " "
+        let th332v = (td3322 * td3312)
+        th332r.innerHTML = " " + th332v + " "
+        let th333v = (td3323 * td3313)
+        th333r.innerHTML = " " + th333v + " "
+        let td3314v = (th334 - td3324 - td3315)
+        td3314r.innerHTML = " " + td3314v + " "
+
+        if ((parseInt(th4v) == parseInt(th4)) && (parseInt(td13v) == parseInt(td13)) && (parseInt(td24v) == parseInt(td24)) && (parseInt(td21v) == parseInt(td21)) && (parseInt(td22v) == parseInt(td22)) && (parseInt(td23v) == parseInt(td23)) && (parseInt(td14v) == parseInt(td14)) && (parseInt(th224v) == parseInt(th224)) && (parseInt(td2213v) == parseInt(td2213)) && (parseInt(td2224v) == parseInt(td2224)) && (parseInt(th221v) == parseInt(th221)) && (parseInt(th222v) == parseInt(th222)) && (parseInt(th223v) == parseInt(th223)) && (parseInt(td2214v) == parseInt(td2214)) && (parseInt(th334v) == parseInt(th334)) && (parseInt(td3313v) == parseInt(td3313)) && (parseInt(td3324v) == parseInt(td3324)) && (parseInt(th331v) == parseInt(th331)) && (parseInt(th332v) == parseInt(th332)) && (parseInt(th333v) == parseInt(th333)) && (parseInt(td3314v) == parseInt(td3314))) {
+            falseortrue.innerHTML = "True "
+            document.getElementById('buttond').disabled = false;
+            document.getElementById('buttona').disabled = false;
+            document.getElementById('buttond').style = "background-color: darkblue; padding: 5px 10px; margin: 5px 10px; border-radius: 10px";
+            document.getElementById('buttona').style = "background-color: darkblue; padding: 5px 10px; margin: 5px 10px; border-radius: 10px";
+            document.getElementById('falseortrue').style = "color: blue"
+            document.getElementById("textdiv").style = "visibility=hidden"
+
+        } else {
+            falseortrue.innerHTML = "False "
+            document.getElementById('falseortrue').style = "color: red"
+
+        }
+
+    }
+</script>
+
+<!-- <script> function newDoc, recommencer et erreur </script> -->
+<script>
+    function newDoc() {
+        let = window.location.assign("file:///C:/Users/HP/Desktop/essai/indexNV2.html ");
+    }
+
+    function recommencer() {
+        let = location.reload();
+    }
+
+    function erreur() {
+        let th1 = inputth1.value;
+        let th3 = inputth3.value;
+        let th2 = inputth2.value;
+        let th4 = inputth4.value;
+        let th4v = (th1 - th2) + parseInt(th3);
+        th4r.innerHTML = " " + th4v + " "
+        let td11 = inputtd11.value;
+        let td12 = inputtd12.value;
+        let td13 = inputtd13.value;
+        let td14 = inputtd14.value;
+        let td15 = inputtd15.value;
+        let td13v = (td12 - td11) + parseInt(td14);
+        td13r.innerHTML = " " + td13v + " "
+        let td21 = inputtd21.value;
+        let td22 = inputtd22.value;
+        let td23 = inputtd23.value;
+        let td24 = inputtd24.value;
+        let td24v = (td21 - td22) + parseInt(td23);
+        td24r.innerHTML = " " + td24v + " "
+        let td21v = (th1 * td11);
+        td21r.innerHTML = " " + td21v + " "
+        let td22v = (th2 * td12);
+        td22r.innerHTML = " " + td22v + " "
+        let td23v = (th3 * td13);
+        td23r.innerHTML = " " + td23v + " "
+        let td14v = (td24 - th4 - td15);
+        td14r.innerHTML = " " + td14v + " "
+            // verification2
+        let th221 = inputth221.value;
+        let th223 = inputth223.value;
+        let th222 = inputth222.value;
+        let th224 = inputth224.value;
+        let th224v = (th221 - th222) - parseInt(th223);
+        th224r.innerHTML = " " + th224v + " "
+        let td2211 = inputtd2211.value;
+        let td2212 = inputtd2212.value;
+        let td2213 = inputtd2213.value;
+        let td2214 = inputtd2214.value;
+        let td2215 = inputtd2215.value;
+        let td2213v = (td2212 - td2211) + parseInt(td2214);
+        td2213r.innerHTML = " " + td2213v + " "
+        let td2221 = inputtd2221.value;
+        let td2222 = inputtd2222.value;
+        let td2223 = inputtd2223.value;
+        let td2224 = inputtd2224.value;
+        let td2224v = (td2221 - td2222) + parseInt(td2223);
+        td2224r.innerHTML = " " + td2224v + " "
+        let th221v = (td2221 * td2211);
+        th221r.innerHTML = " " + th221v + " "
+        let th222v = (td2222 * td2212);
+        th222r.innerHTML = " " + th222v + " "
+        let th223v = (td2223 * td2213);
+        th223r.innerHTML = " " + th223v + " "
+        let td2214v = (td2224 - th224) + parseInt(td2215);
+        td2214r.innerHTML = " " + td2214v + " "
+            // verification3
+        let th331 = inputth331.value;
+        let th333 = inputth333.value;
+        let th332 = inputth332.value;
+        let th334 = inputth334.value;
+        let th334v = parseInt(th332) + parseInt(th333) - th331;
+        th334r.innerHTML = " " + th334v + " "
+        let td3311 = inputtd3311.value;
+        let td3312 = inputtd3312.value;
+        let td3313 = inputtd3313.value;
+        let td3314 = inputtd3314.value;
+        let td3315 = inputtd3315.value;
+        let td3313v = parseInt(td3311) + parseInt(td3312) - td3314;
+        td3313r.innerHTML = " " + td3313v + " "
+        let td3321 = inputtd3321.value;
+        let td3322 = inputtd3322.value;
+        let td3323 = inputtd3323.value;
+        let td3324 = inputtd3324.value;
+        let td3324v = parseInt(td3322) + parseInt(td3323) - td3321;
+        td3324r.innerHTML = " " + td3324v + " "
+        let th331v = (td3321 * td3311)
+        th331r.innerHTML = " " + th331v + " "
+        let th332v = (td3322 * td3312)
+        th332r.innerHTML = " " + th332v + " "
+        let th333v = (td3323 * td3313)
+        th333r.innerHTML = " " + th333v + " "
+        let td3314v = (th334 - td3324 - td3315)
+        td3314r.innerHTML = " " + td3314v + " "
+
+        if ((parseInt(th4v) !== parseInt(th4)) || (parseInt(td13v) !== parseInt(td13)) || (parseInt(td24v) !== parseInt(td24)) || (parseInt(td21v) !== parseInt(td21)) || (parseInt(td22v) !== parseInt(td22)) || (parseInt(td23v) !== parseInt(td23)) || (parseInt(td14v) !== parseInt(td14))) {
+            document.getElementById('tablediv1').style = "background-color: red"
+
+
+        } else {
+            document.getElementById('tablediv1').style = "background-color: blue"
+
+        }
+
+        if ((parseInt(th224v) !== parseInt(th224)) || (parseInt(td2213v) !== parseInt(td2213)) || (parseInt(td2224v) !== parseInt(td2224)) || (parseInt(th221v) !== parseInt(th221)) || (parseInt(th222v) !== parseInt(th222)) || (parseInt(th223v) !== parseInt(th223)) || (parseInt(td2214v) !== parseInt(td2214))) {
+            document.getElementById('tablediv2').style = "background-color: red"
+        } else {
+            document.getElementById('tablediv2').style = "background-color: blue"
+        }
+
+        if ((parseInt(th334v) !== parseInt(th334)) || (parseInt(td3313v) !== parseInt(td3313)) || (parseInt(td3324v) !== parseInt(td3324)) || (parseInt(th331v) !== parseInt(th331)) || (parseInt(th332v) !== parseInt(th332)) || (parseInt(th333v) !== parseInt(th333)) || (parseInt(td3314v) !== parseInt(td3314))) {
+            document.getElementById('tablediv3').style = "background-color: red"
+        } else {
+            document.getElementById('tablediv3').style = "background-color: blue"
+        }
+        document.getElementById('inputv').reload
+
+    }
+</script>
+
+<!-- <script> function color </script> -->
+<script>
+    function colorh() {
+        document.getElementById("h").style.color = "darkblue";
+        document.getElementById("m").style.color = "aliceblue";
+        document.getElementById("j").style.color = "aliceblue";
+        document.getElementById("t").style.color = "aliceblue";
+
+    }
+
+    function colorm() {
+        document.getElementById("m").style.color = "darkblue";
+        document.getElementById("h").style.color = "aliceblue";
+        document.getElementById("j").style.color = "aliceblue";
+        document.getElementById("t").style.color = "aliceblue";
+    }
+
+    function colorj() {
+        document.getElementById("j").style.color = "darkblue";
+        document.getElementById("m").style.color = "aliceblue";
+        document.getElementById("h").style.color = "aliceblue";
+        document.getElementById("t").style.color = "aliceblue";
+    }
+
+    function colort() {
+        document.getElementById("t").style.color = "darkblue";
+        document.getElementById("j").style.color = "aliceblue";
+        document.getElementById("h").style.color = "aliceblue";
+        document.getElementById("m").style.color = "aliceblue";
+    }
+
+    function inscris() {
+        let inp1 = inp1.value;
+        let inp2 = inp2.value;
+        let inp3 = inp3.value;
+        let inp4 = inp4.value;
+        let inp5 = inp5.value;
+        let inpimg = inpimg.value;
+        if (inp1 !== null && inp2 !== null && inp3 !== null && inp4 !== null && inp5 !== null) {
+            window.location.assign("file:///C:/Users/HP/Desktop/essai/indx.html#tablesection ");
+        } else {
+            att.innerHTML = "veuiller saisir tout les champs"
+            document.getElementById('att').style = "color: red"
+        }
+
+
+    }
+</script>
+
+
+</html>
